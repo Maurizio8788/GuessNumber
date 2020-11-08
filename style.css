@@ -6,6 +6,10 @@
   box-sizing: inherit;
 }
 
+html, body{
+  overflow-x: hidden;
+}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -125,6 +129,7 @@ h1 {
 
   h1{
     width: unset;
+    left: 45%;
   }
 
   .again{
@@ -133,7 +138,7 @@ h1 {
   }
 
   .between{
-    right: 7rem;
+    right: 13rem;
     text-align: center;
   }
 
