@@ -117,3 +117,37 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width:765px){
+  header{
+    height: 70vh;
+  }
+
+  h1{
+    width: unset;
+  }
+
+  .again{
+    top: 6rem;
+    left: 7rem;
+  }
+
+  .between{
+    right: 4rem;
+    text-align: center;
+  }
+
+  main{
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .left{
+    margin-top: 5rem;
+  }
+
+  .right{
+    width: 100%;
+    font-size: 1.9rem;
+  }
+}
