@@ -32,8 +32,8 @@ document.querySelector( '.check' ).addEventListener( 'click', function(){
      // Gestione numero errato
     } else if( guess !== secretNumber ){
         if( score > 1){
-            let tooHigh = "📈 Numero troppo alto!!";
-            let tooLow =  "📉 Numero troppo basso!!";
+            let tooHigh = "📈 troppo alto!!";
+            let tooLow =  "📉 troppo basso!!";
     
             displayMessage( ( guess < secretNumber ) ?  tooLow : tooLow);
             score--;
