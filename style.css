@@ -133,7 +133,7 @@ h1 {
   }
 
   .between{
-    right: 4rem;
+    right: 7rem;
     text-align: center;
   }
 
@@ -143,6 +143,7 @@ h1 {
   }
 
   .left{
+    width: unset;
     margin-top: 5rem;
   }
 
