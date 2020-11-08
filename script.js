@@ -35,7 +35,7 @@ document.querySelector( '.check' ).addEventListener( 'click', function(){
             let tooHigh = "📈 troppo alto!!";
             let tooLow =  "📉 troppo basso!!";
     
-            displayMessage( ( guess < secretNumber ) ?  tooLow : tooLow);
+            displayMessage( ( guess < secretNumber ) ?  tooLow : tooHigh);
             score--;
             document.querySelector('.score').textContent = score;
         } else {
